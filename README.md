@@ -1,5 +1,5 @@
 # Service Composition
-#### Part 1: Normal coding with synchronous API calls
+## Part 1: Normal coding with synchronous API calls
 Service Compostion: Price sum of given order type for a specific user (by user_id)
 
 Parameters: user_id (user/order microservice), order_tpye: PENDING | COMPLETE | CANCELLED (order microservice)
