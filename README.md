@@ -13,3 +13,11 @@ Test results:
 > The price sum of COMPLETE orders for user_id: 3 is 24.99
 >  
 > The price sum of COMPLETE orders for user_id: 1 is 0
+
+
+## Part 2: Asynchronous API calls with parallelism
+Service Composition: Sum of lowest price of all ingredients from a given recipe name (by recipe_name)
+
+Parameters: recipe_name (cocktail recipe microservice)
+
+Process: get the the ingedients from given recipe_name, then parallel call inventories that match the given ingedients, fetch the lowest price, and finally return the total price
