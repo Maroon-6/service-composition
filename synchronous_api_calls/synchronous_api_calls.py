@@ -1,9 +1,10 @@
 import requests
 import json
 
+endpoint = "local_host_url"
 urls = [
-    "http://127.0.0.1:5000/orders",
-    "http://127.0.0.1:5000/orders/users"
+    endpoint + "/orders",
+    endpoint + "/orders/users"
 ]
 
 
